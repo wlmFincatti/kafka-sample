@@ -1,0 +1,5 @@
+kafkaorderconsumerspring/configuration/KafkaConsumerConfig.class
+br/com/wlmfincatti/order$Builder.class
+kafkaorderconsumerspring/KafkaOrderConsumerSpringApplication.class
+kafkaorderconsumerspring/service/OrderConsumer.class
+br/com/wlmfincatti/order.class

@@ -1,0 +1,8 @@
+br/com/wlmfincatti/service/OrderConsumer.class
+br/com/wlmfincatti/order$Builder.class
+br/com/wlmfincatti/service/OrderConsumerService.class
+br/com/wlmfincatti/service/OrderConsumerImpl.class
+br/com/wlmfincatti/service/OrderConsumerByOffsetImpl.class
+br/com/wlmfincatti/configuration/OrderConfig.class
+br/com/wlmfincatti/order.class
+br/com/wlmfincatti/StarterApp.class

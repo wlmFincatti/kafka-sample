@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: kafka-order-consumer-spring
+
+kafka:
+  consumer:
+    order:
+      topic: order
+      groupId: consumer-order-spring
+      clientId: ${spring.application.name}
+      bootstrapServer: localhost:9092

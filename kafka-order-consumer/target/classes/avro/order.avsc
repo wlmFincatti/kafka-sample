@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "doc": "name of order",
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "doc": "number of order",
+      "name": "quantity",
+      "type": "int"
+    },
+    {
+      "doc": "price of order",
+      "name": "price",
+      "type": "double"
+    }
+  ],
+  "name": "order",
+  "namespace": "br.com.wlmfincatti",
+  "type": "record"
+}
