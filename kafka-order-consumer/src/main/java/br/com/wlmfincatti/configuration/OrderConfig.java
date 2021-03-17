@@ -3,15 +3,15 @@ package br.com.wlmfincatti.configuration;
 import io.confluent.kafka.serializers.KafkaAvroDeserializer;
 import io.confluent.kafka.serializers.KafkaAvroDeserializerConfig;
 import io.confluent.kafka.serializers.KafkaAvroSerializer;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.util.Properties;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class OrderConfig {
-
-    private OrderConfig() {
-    }
 
     private static Properties properties = new Properties();
 

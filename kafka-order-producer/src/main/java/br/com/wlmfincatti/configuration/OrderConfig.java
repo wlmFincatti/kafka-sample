@@ -2,17 +2,17 @@ package br.com.wlmfincatti.configuration;
 
 import io.confluent.kafka.serializers.KafkaAvroSerializer;
 import io.confluent.kafka.serializers.KafkaAvroSerializerConfig;
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class OrderConfig {
 
     private static Properties properties = new Properties();
-
-    private OrderConfig() {
-    }
 
     public static Properties getProps() {
         properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
